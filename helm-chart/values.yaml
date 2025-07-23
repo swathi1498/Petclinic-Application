@@ -1,5 +1,8 @@
 replicaCount: 2
 
+ingress:
+  enabled: false
+
 image:
   repository: kumarltd/myapp
   tag: latest
