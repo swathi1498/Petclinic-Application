@@ -1,9 +1,5 @@
 replicaCount: 2
 
-serviceAccount:
-  create: true
-  name: ""
-
 image:
   repository: kumarltd/myapp
   tag: latest
